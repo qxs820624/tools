@@ -636,7 +636,7 @@ type I int
 	want := `package main
 
 import (
-	"golang.org/x/tools/go/ast/astutil"
+	"go/ast/astutil"
 	"os"
 )
 
